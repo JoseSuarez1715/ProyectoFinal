@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--div superior MENU contiene 2 div--> 
+        <DIV class="MENU">
+            <div class="logo">
+                <img src="css/codoacodo.png" height="50px">
+                Conf Bs As        
+            </div>
+            <div class="SUBMENU">
+                <div class="SeccionMenu">
+                    <a href="index.html#carousel">La conferencia</a>
+                </div>
+                <div class="SeccionMenu">
+                    <a href="index.html#oradores">Los oradores</a>
+                </div>
+                <div class="SeccionMenu">
+                    <a href="index.html#lugar">El lugar y la fecha</a>
+                </div>
+                <div class="SeccionMenu">
+                    <a href="index.html#conviertete">Conviertete en orador</a>
+                </div>
+                <div class="SeccionMenu" id="comprar">
+                    <a href="pagina2.html">Comprar tickets</a>
+                </div>        
+            </div>
+        </DIV>
+        <br>
+        <div class="total">
+            <!--cuadros con info de descuentos-->
+            <div class="descuentos">
+                <div class="descuento" id="estudiante">
+                    <b>Estudiante</b>
+                    <br>
+                    <br>
+                    Tienen un descuento
+                    <br>
+                    <br>
+                    <b>80%</b>
+                    <br>
+                    <br>
+                    *presentar documentación
+                </div>
+                <div class="descuento" id="trainee">
+                    <b>Trainee</b>
+                    <br>
+                    <br>
+                    Tienen un descuento
+                    <br>
+                    <br>
+                    <b>50%</b>
+                    <br>
+                    <br>
+                    *presentar documentación
+                </div>
+                <div class="descuento" id="junior">
+                    <b>Junior</b>
+                    <br>
+                    <br>
+                    Tienen un descuento
+                    <br>
+                    <br>
+                    <b>15%</b>
+                    <br>
+                    <br>
+                    *presentar documentación
+                </div>
+            </div>
+            <!--info de valor ticket--> 
+            <br>
+            VENTA
+            <br>
+            <h2><b>VALOR DE TICKET $200</b></h2>
+            <br>
+            <!--formulario-->
+            <div>
+                <div class="formulario2">
+                    <input class="form-control" type="text" placeholder="Nombre"  id="nombre2" class="textoreset">
+                    <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example" id="apellido2" class="textoreset">
+                    <input type="email" class="form-control" placeholder="Correo" id="correo2">
+                    <div id="cantidad">
+                        <label for="exampleFormControlInput1" class="form-label">Cantidad</label>
+                        <input type="number" class="form-control" placeholder="Cantidad" id="cant">
+                    </div>
+                    <div id="select">
+                        <label for="exampleFormControlInput1" class="form-label">Categoria</label>
+                        <select class="form-select" aria-label="Default select example" id="categ">
+                            <option value="0">Estudiante</option>
+                            <option value="1">Trainee</option>
+                            <option value="2">Junior</option>
+                        </select>
+                    </div>
+                    <!--mensaje de total a pagar, cuando cambias cantidad o categoria-->
+                    <div class="alert alert-info" id="pagar">
+                    Total a Pagar: $<p id="monto"></p>
+                    </div>              
+                </div>
+                <!--botones-->
+                <div id="botones">
+                <button type="button" class="btn btn-success" id="borrar">Borrar</button>
+                <button type="button" class="btn btn-success" id="resumen" >Resumen</button>            
+                </div>
+            </div>
+        </div>
+        <br>       
+        <!--footer-->
+        <div class="footer">
+            <div class="subfoot"><a href="#">Preguntas frecuentes</a></div>
+            <div class="subfoot"><a href="#">Contactanos</a></div>
+            <div class="subfoot"><a href="#">Prensa</a></div>
+            <div class="subfoot"><a href="#">Conferencias</a></div>
+            <div class="subfoot"><a href="#">Terminos y condiciones</a></div>
+            <div class="subfoot"><a href="#">Privacidad</a></div>
+            <div class="subfoot"><a href="#">Estudiantes</a></div>
+        </div>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="js/java.js">
+        </script>
+    </body>
+</html>

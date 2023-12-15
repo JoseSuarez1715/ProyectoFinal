@@ -1,0 +1,268 @@
+*
+{
+margin: 0;
+padding: 0;    
+}
+
+.MENU
+{
+height: 100px;
+display: flex;
+background-color: rgb(58, 58, 58);
+align-items: center;
+}
+
+.logo
+{
+color: white;
+font-size: 110%;
+width: 50%;
+padding-left: 100px;
+}
+
+.SUBMENU
+{
+width: 50%;
+display: flex;
+justify-content: end;
+padding-right: 100px;
+}
+
+.SeccionMenu
+{
+margin-left: 30px;
+padding: 40px 0;
+}
+
+a[href]
+{
+color: white;
+text-decoration: none;
+}
+
+#comprar a
+{
+color: green;
+}
+
+.conf
+{
+width: 112%;
+display: flex;
+flex-direction: row-reverse;
+margin-bottom: 250px;
+}
+
+.TextoCarousel
+{
+width: 35%;
+text-align: end; 
+}
+
+.carousel-item
+{
+filter: brightness(50%);
+}
+
+.conoce
+{
+margin-top: 15px; 
+text-align: center;
+}
+
+.ContenedorOradores
+{
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-bottom: 35px;
+}
+
+.javascript
+{
+font-size: 80%;   
+background-color: rgb(233, 233, 19);
+border-radius: 15%;
+}
+
+.react
+{
+font-size: 80%;   
+background-color: rgb(19, 144, 194);
+border-radius: 15%;
+}    
+
+.negocios
+{
+color: white;
+font-size: 80%;
+background-color: grey;
+border-radius: 15%;
+} 
+    
+.startups
+{
+color: white;
+font-size: 80%;
+background-color: rgb(224, 11, 11);
+border-radius: 15%;
+}
+
+#octubre
+{
+background-color: rgb(51, 51, 51);
+color: white
+}
+
+.formulario
+{
+display: flex;
+height: 50px;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+}
+
+.nombre
+{
+height: 50px;
+width: 470px;
+}
+
+.apellido
+{ 
+height: 50px;
+width: 470px;
+}
+
+.caja
+{
+display: flex;
+justify-content: center;
+}
+
+#cajatext
+{ 
+width: 50%;
+}
+#submit
+{
+width: 100%;
+height: 30px;
+font-size: 120%;
+padding-bottom: 35px;   
+}
+
+.footer
+{
+height: 100px;
+background-color: rgb(5, 65, 5);
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+
+.subfoot
+{
+height: 100%;
+width: 100px;
+margin: 0 45px;
+padding-top: 20px;
+}
+
+.total
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0% 25%;
+    text-align: center;
+}
+.descuentos
+{
+    
+    display: flex;
+    justify-content: stretch;
+   
+}
+.descuento
+{    
+    font-size: large;
+    height: 300px;
+    margin: 0px 1px;
+    border: 2px solid;
+    padding: 40px 0px;
+
+}
+#estudiante
+{
+    width: 33%;
+    border-color: blue;
+}
+#trainee
+{
+    width: 33%;
+    border-color: green;
+}
+#junior
+{
+    width: 33%;
+    border-color: orange;
+}
+.formulario2
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#nombre2
+{
+    width: 49%;
+    margin-right: 1%;
+}
+#apellido2
+{
+    width: 49%;
+    margin-left: 1%;
+}
+#correo2
+{
+    margin-top: 15px;
+    width: 100%;
+}
+#cantidad
+{
+    width: 49%;
+    margin-right: 1%;
+    margin-top: 25px;
+}
+#select
+{
+    width: 49%;
+    margin-left: 1%;
+    margin-top: 25px;
+}
+#pagar
+{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    height: 60px;
+}
+#botones
+{
+   display: flex;
+
+}
+#resumen
+{
+    width: 100%;
+    margin-left: 1%
+}
+#borrar
+{
+    width: 100%;
+    margin-right: 1%
+}
+
+
